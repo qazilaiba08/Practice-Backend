@@ -1,16 +1,23 @@
 {
-  "name": "server",
+  "name": "practice-backend",
   "version": "1.0.0",
-  "main": "app.mjs",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.mjs"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qazilaiba08/Practice-Backend.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qazilaiba08/Practice-Backend/issues"
+  },
+  "homepage": "https://github.com/qazilaiba08/Practice-Backend#readme",
   "description": "",
   "dependencies": {
-    "express": "^4.21.2",
-    "nodemon": "^3.1.9"
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
   }
 }
